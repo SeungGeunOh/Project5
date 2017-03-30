@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 v = getLayoutInflater().inflate(R.layout.mytoast,null);
                 TextView msg = (TextView)v.findViewById(R.id.textView3);
                 msg.setText("레이아웃으로 만든 토스트 창입니다.");
-
                 toast.setDuration(Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER,0,100);
                 toast.setView(v);
